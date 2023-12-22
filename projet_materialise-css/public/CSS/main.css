@@ -1,0 +1,101 @@
+body {
+    width: 90rem;
+    margin: 0 auto;
+    background-color: #23221E;
+}
+
+.nav-text {
+display: flex;
+align-items: flex-start;
+gap: 9.375rem;
+}
+
+.icones-nav {
+display: flex;
+align-items: flex-start;
+gap: 6.0625rem;
+}
+
+.icone-nav1 {
+width: 6.25rem;
+height: 5.84013rem;
+}
+
+nav ul a {
+    color: #ECEBBD;
+}
+
+.rectangle2 {
+    background-image: url("../assets/img/bacgroung-header.png");
+    height: 49.25rem;
+}
+
+.rectangle2 .h1 {
+    color: #ECEBBD;
+}
+
+.rectangle2 .texte {
+    color: #FFFF;
+}
+
+.rectangle2 .bouton {
+    margin: 1.5rem 0;
+}
+
+.rectangle2 .container {
+    padding-top: 9rem;
+}
+
+.titre-section-1 {
+    color: #FCFCFC;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+#card-1 {
+    background-image: url('../assets/img/Rectangle7.png');
+    margin-bottom: 3rem;
+}
+
+#card-2 {
+    background-image: url('../assets/img/event2.png');
+    margin-bottom: 3rem;
+}
+
+#card-3 {
+    background-image: url('../assets/img/event3.png');
+}
+
+#card-4 {
+    background-image: url('../assets/img/event4.png');
+}
+
+#btn-event {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 3rem 0;
+}
+
+#section-2 {
+    background-color: #AEB798;
+}
+
+.titre-section-2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.newsletter {
+    display: flex;
+}
+
+.newsletter label {
+    margin-right: 5rem;
+    color: #FCFCFC;
+}
+
+.reseaux {
+    color: #FCFCFC;
+}
