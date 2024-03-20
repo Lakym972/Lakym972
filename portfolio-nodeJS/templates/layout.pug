@@ -1,5 +1,5 @@
 doctype html
-html(lang="en")
+html(lang="fr")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
@@ -12,32 +12,19 @@ html(lang="en")
         link(rel="stylesheet", href="./change.css")
 
 
-    body#page-top(data-bs-theme="dark")
-        a.menu-toggle.rounded(href='#')
-            svg.svg-inline--fa.fa-bars(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='bars' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512' data-fa-i2svg='')
-            path(fill='currentColor' d='M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z')
-        // <i class="fas fa-bars"></i> Font Awesome fontawesome.com
-        nav#sidebar-wrapper
-        ul.sidebar-nav
-            li.sidebar-brand
-            a(href='#page-top') Menu
-            li.sidebar-nav-item
-            a(href='#page-top') Home
-            li.sidebar-nav-item
-            a(href='#about') About
-            li.sidebar-nav-item
-            a(href='#services') Services
-            li.sidebar-nav-item
-            a(href='#portfolio') Portfolio
-            li.sidebar-nav-item
-            a(href='#contact') Contact
-        // Header
-        header.masthead.d-flex.align-items-center
-        .container.px-4.px-lg-5.text-center
-            h1.mb-1 Salut, je suis Anthony
-            h3.hh3.mb-5
-            em Développeur Web Full-Stack
-            a.btn.btn-primary.btn-xl(href='#about') Voir Plus
+    body
+        header 
+            nav.navbar.navbar-expand-lg.bg-body-secondary.d-flex.justify-content-evenly
+                a.navbar-brand(href="/") Home
+                h1 Anthony PIERRE-CHARLES
+                ul.navbar-nav    
+                    li.nav-item
+                        a.nav-link(aria-current="page" href="/") Works
+                    li.nav-item
+                        a.nav-link(aria-current="page" href="/") About
+                    li.nav-item
+                        a.nav-link(aria-current="page" href="/") Contact
+                        
         block content 
 
 
